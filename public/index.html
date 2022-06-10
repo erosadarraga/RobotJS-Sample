@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>Robot Embedding Sample Application</title>
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bg-red-700 flex-row self-center mx-auto justify-end">
+        <div class="flex-row justify-center">
+            <h1 class="">Brsowser Embedding Ssample Application</h1>
+            <div id="port"></div>
+            <div id="username"></div> <br />
+            <div id="error-message"></div>
+        </div>
+
+        <table border="0">
+            <tr id="background">
+                <td valign="top">
+                    <h3>Process List</h3>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <div id="divRobots" style="border: 1px solid black;"></div>
+                    <button id="GetRobotProcesses" onclick="refreshRobotProcesses();">Refresh Robot Process</button>
+                </td>
+            </tr>
+    </div>
+    <!-- <script src="https://uipathrobot.azureedge.net/Latest/UiPathRobot.js"></script> -->
+    <script src="//download.uipath.com/js/Latest/UiPathRobot.js" />
+    </script>
+    <script src="/scripts/app.js"></script>
+
+
+</body>
+​
+
+</html>
